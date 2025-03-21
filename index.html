@@ -1,4 +1,4 @@
-
+ 
      <!DOCTYPE html>
 <html lang="en">
 
@@ -47,12 +47,14 @@
                     </select>
                     <a href="tel:998781134040">78 113 40 40</a>
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-bars"></i>
                 </div>
+                <i class="fa-solid fa-bars"></i>
             </nav>
         </div>
     </header>
-    <main>
+
+
+     <main>
         <section class="hero">
           <video id="video" loop autoplay>
             <source loop autoplay src="./img/slider.mp4" type="video">
@@ -62,7 +64,7 @@
             <track loop autoplay label="Espanol" kind="captions" srclang="es" src="./img/slider.mp4">
          </video>
         </section>
-        <div class="container">
+      
           <div class="video__button">
               <div class="buttun">
                   <i class="fa-solid fa-ellipsis"></i>
@@ -139,13 +141,14 @@
                       <div class="card__text">
                           <p>19 000 sum</p>
                       </div>
-                  </div>
+                  </div> 
                   <div class="card">
       </section>
-      <div class="container">
-          <div class="top">
-              <h2>Top</h2>
+      <div class="top">
           
+          <div class="tittle">
+              <h2 class="top__name">Top</h2>
+          </div>
           <section class="center__top">
             <div class="top__cake">
               <img src="https://homework10-gilt.vercel.app/assets/images/rasm11.jpg" alt="">
@@ -169,7 +172,6 @@
                   anime corpora!</p>
               <h5> 315 000 sum</h5>
           </div>
-        </div>
       </section>
   </div>
   <div class="container">
@@ -285,13 +287,16 @@
         <div class=" icon">
             <h2>Contacts</h2>
             <a href="">78 113 40 40</a>
-            <br>
+           <div class="contact">
             <i class="fa-brands fa-square-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-telegram"></i>
-            <br>
-            <button><i class="fa-brands fa-google"></i>Google play</button>
+           </div>
+
+            <div class="icon__button">
+                <button><i class="fa-brands fa-google"></i>Google play</button>
             <button> <i class="fa-brands fa-apple"></i>App store</button>
+            </div>
         </div>
     </div>
 </section>
@@ -312,21 +317,16 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
-    color: white;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
+    
   }
   
-  #myBtn:hover {
-    background-color: #555;
-  }
+ 
   </style>
   </head>
   <body>
   
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="https://avatars.mds.yandex.net/i?id=aef9ac42a311bd6b27b6a04326235eabf0a77148-8159518-images-thumbs&n=13" width="50px" height="50px" alt=""></button>
   
   
   <script>
@@ -350,4 +350,4 @@
   
 
 </body>
-</html>
+</html> 
